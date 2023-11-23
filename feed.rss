@@ -2,25 +2,25 @@
 <rss version="2.0">
     <channel>
         <title>Paint The Nights - Micro Blog</title>
-        <link>https://www.paintthenights.com</link>
+        <link>https://paintthenights.com</link>
         <description>Blog Posts</description>
         <language>en-us</language>
         <lastBuildDate>Thu, 23 Nov 2023 08:00:00 +1000</lastBuildDate> 
 
         <item>
             <title>The Web 1.1 Manifesto</title>
-            <link>http://www.paintthenights.com/posts/1.html</link>
-            <description>The problem with the web and my experiment</description>
+            <link>http://paintthenights.com/posts/1.html</link>
+            <description>The problem with the modern web, how AI might fix it, and my experiment <a href="http://paintthenights.com/posts/1.html"> Read Full</a></description>
             <pubDate>Thu, 23 Nov 2023 08:00:00 +1000</pubDate>
-            <guid>http://www.paintthenights.com/posts/1.html</guid>
+            <guid>http://paintthenights.com/posts/1.html</guid>
         </item>
 
         <item>
             <title>The Lightswitch is Holding Back the Smart Home</title>
-            <link>http://www.paintthenights.com/posts/2.html</link>
+            <link>http://paintthenights.com/posts/2.html</link>
             <description></description>
             <pubDate>Thu, 24 Nov 2023 08:00:00 +1000</pubDate>
-            <guid>http://www.paintthenights.com/posts/2.html</guid>
+            <guid>http://paintthenights.com/posts/2.html</guid>
         </item>
 
 
