@@ -26,7 +26,7 @@
                 <th>Tool</th>
                 <tr>
                     <td>Web Hosting</td>
-                    <td>GitHub -> Code Pipeline -> S3 Bucket -> CloudFront <- Route 53 </td>
+                    <td>S3 Bucket <-> CloudFront</td>
                 </tr>
                 <tr>
                     <td>Version Control</td>
@@ -37,9 +37,18 @@
                     <td>Visual Studio Code</td>
                 </tr>
                     <td>Language</td>
-                    <td>HTML5 / CSS / Javascript</td>
+                    <td>HTML5 / CSS</td>
             </table>
-    
+
+            <hr>
+
+            <h2>Development Pipeline</h2>
+            This current development pipeline only exists to make it easier for me to publish easier. There is nothing in it's design that it can't just be uploaded straight to a web server and viewed like that. Saying that here is how I currently deploy
+
+            <br>
+
+            <p>Local Editing (Visual Studio Code) -> Push to GitHub (GitHub Desktop) -> Deploy to S3 (AWS Code Pipeline) <- CDN Web Hosting (AWS CloudFront)</p>
+        
             <hr>
     
             <h2>Web Hosting</h2>
