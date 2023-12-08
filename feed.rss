@@ -23,6 +23,13 @@
             <guid>http://paintthenights.com/posts/2.html</guid>
         </item>
 
+        <item>
+            <title>The Reliability Problem - Why Thread Is Not a Magic Bullet</title>
+            <link>http://paintthenights.com/posts/3.html</link>
+            <description>A quick look into Why reliability in the smart home is so important and discussing why Thread & Matter are not a magical solution to it</description>
+            <pubDate>Fri, 8 Dec 2023 02:00:00 +1000</pubDate>
+            <guid>http://paintthenights.com/posts/3.html</guid>
+        </item>
 
     </channel>
 </rss>
