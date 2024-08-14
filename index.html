@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html>
+<head>
     <meta charset="UTF-8">
-    <head>
-        <title>Paint The Nights - Micro Blog</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="/icon/favicon.jpg">
-    </head>
-    <body>
+    <title>Paint The Nights - Micro Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.jpg">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="header-content">
+            <h1><a href="index.html">Paint The Nights - Micro Blog</a></h1>
+            <p><a href="../pages/About.html">About</a> | <a href="../pages/Donate.html">Donate</a> | <a href="../pages/Contact.html">Contact</a> | <a href="../feed.rss">RSS</a></p>
+        </div>
+        <hr>
+    </div>
 
-         <!-- HEADER -->
-        <div class="header">
-            <div style="display: flex;">
-                <div style="flex: 1;">
-                    <h1><a href=index.html style="text-decoration:none">Paint The Nights - Micro Blog</a> </h1>
-                    <hr>
-                </div>
-                <div>
-                    <p><a href=./pages/Donate.html>₿ Donate</a> | <a href=./pages/Contact.html>Contact</a> | <a href=feed.rss>RSS</a> </p>                                   
-                </div>
-        </div>
-    
-        <!-- BODY -->
-        <div style="float: left; width: 60%;">
-            <h2>Introduction</h2>
-            <p>Welcome to my Micro Blog. This blog is a collection of my ideas and writings.</p>
-            <h2>Why?</h2>
-            <p>This site is mostly an exercise in website simplicity in the age of AI. You can read why in <a href="./posts/1.html"> Web 1.1 Manifesto</a></p>
-            <h2>Documents</h2>
-            <a href="./pages/DevEnvironment.html">Development Environment</a>
-            <br>
-            <a href="./pages/DesignPrinciples.html">Design Principles</a>
-            <br>
-            <a href="./pages/Stats.html">Website Stats</a>
-            <br>
-            <a href="feed.rss">RSS Feed</a>
-            <br>
-            <a href="./pages/SourceCode.html">Source Code</a>
-            <hr> 
-        </div>
+    <!-- BODY -->
+    <div class="main-content">
+        <h2>Blogs</h2>
+        <p><a href="./posts/3.html">The Reliability Problem - Why Thread Is Not a Magic Bullet</a></p>
+        <p><a href="./posts/2.html">The Lightswitch is Holding Back the Smart Home</a></p>
+        <p><a href="./posts/1.html">Web 1.1 Manifesto</a></p>
+    </div>
 
-        <div style="float: right; width: 40%; padding-right: 20px;"></div>
-            <h2>Blogs</h2>
-            <p><a href="./posts/3.html"> 3 - The Reliability Problem - Why Thread Is Not a Magic Bullet </a></p>
-            <p><a href="./posts/2.html"> 2 - The Lightswitch is Holding Back the Smart Home </a></p>
-            <p><a href="./posts/1.html"> 1 - Web 1.1 Manifesto </a></p>
-        </div>
-        <div style="clear: both;"></div>
-    </body>
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+        <p>Paint The Nights - Micro Blog</p>
+    </footer>
+</body>
 </html>
