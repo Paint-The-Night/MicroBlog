@@ -21,13 +21,14 @@
         </div>  
 
         <!-- BODY -->
+         <h2>Development Environment</h2>
         <div>
             <table>
                 <th>What</th>
                 <th>Tool</th>
                 <tr>
                     <td>Web Hosting</td>
-                    <td>S3 Bucket <-> CloudFront</td>
+                    <td>GitHub Pages</td>
                 </tr>
                 <tr>
                     <td>Version Control</td>
@@ -40,35 +41,31 @@
                     <td>Language</td>
                     <td>HTML5 / CSS</td>
             </table>
-
-            <hr>
-
-            <h2>Development Pipeline</h2>
-            This current development pipeline only exists to make it easier for me to publish easier. There is nothing in it's design that it can't just be uploaded straight to a web server and viewed like that. Saying that here is how I currently deploy
-
-            <br>
-
-            <p>Local Editing (Visual Studio Code) -> Push to GitHub (GitHub Desktop) -> Deploy to S3 (AWS Code Pipeline) <- CDN Web Hosting (AWS CloudFront)</p>
         
             <hr>
     
             <h2>Web Hosting</h2>
-            <p>This website is hosted in an Amazon S3 Bucket. S3 buckets do not allow for HTTPs connections. SO I've had to use the AWS CloudFront Platform as a Content Delivery Network (CDN)</p>
-    
+            <p><b>What:</b> GitHub Pages</p>
+            <P><b>Why:</b> It's a free service that allows you to host static websites. It's perfect for this blog as it's a simple static website with no server-side code. </p>
+
             <hr>
     
             <h2>Version Control</h2>
-            <p>git is the undisputed standard for version control so it's been used in this blog. While it's not that important for collaborative work it let myself or anyone interested peel back the curtain to see any historical changes right from the begging of the project. </p>
+            <p><b>What:</b> git</p>
+            <p><b>Why:</b> the undisputed standard for version control so it's been used in this blog. While it's not that important for collaborative work it let myself or anyone interested peel back the curtain to see any historical changes right from the begging of the project. </p>
+                 
     
             <hr>
     
             <h2>Text Editing</h2>
-            <p>At the time of creations Visual Studio Code is the text editor I'm using to create this blog. Mostly for spell check and ease-of-use</p>
+            <p><b>What:</b>Visual Studio Code</p>
+            <p><b>Why:</b>spell check and ease-of-use</p>
     
             <hr>
             
             <h2>Language</h2>
-            <p>HTML is only real language you can for writing a website so it's been used. I would have preferred to write in markdown and I know there are tools for allowing that to happen - but thought it wasn't nessicary due to the <a href=DesignPrinciples.html> design principles </a> of this blog. </p>
+            <p><b>What: </b>HTML / CSS</p>
+            <p><b>Why:</b>Most Portable</p>
     
         </div>
     </body>
