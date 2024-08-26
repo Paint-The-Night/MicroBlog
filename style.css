@@ -48,3 +48,15 @@ h1 a, h1 a:hover {
   font-size: 0.95em;
   color: #444;
 }
+.nano-post {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.nano-post p {
+  margin: 0 0 5px 0;
+}
+.nano-post small {
+  color: #666;
+  font-size: 0.8em;
+}
