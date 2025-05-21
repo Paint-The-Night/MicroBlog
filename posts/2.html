@@ -6,27 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Lightswitch is Holding Back the Smart Home - Paint The Nights - Micro Blog</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="icon" type="image/x-icon" href="/icon/favicon.jpg">
+    <link rel="icon" type="image/x-icon" href="../icon/favicon.jpg">
 </head>
 
 <body>
-    
-        <!-- HEADER -->
-        <header>
-            <div class="header-content">
-                <h1><a href="../index.html">Paint The Nights - Micro Blog</a></h1>
-                <nav>
-                    <a href="../index.html">Micro Posts</a> |
-                    <a href="../pages/NanoBlog.html">Nano Posts</a> |
-                    <a href="../pages/About.html">About</a> |
-                    <a href="../pages/Donate.html">Donate</a> |
-                    <a href="../pages/Contact.html">Contact</a> |
-                    <a href="../feed.rss">RSS</a>
-                </nav>
-            </div>
-        </header>
-
-    <hr>
+    <div id="dynamic-header"></div>
     
     <!-- BODY -->
     <div class="main-content">
@@ -82,11 +66,7 @@
             </section>
         </article>
     </div>
-
-    <!-- FOOTER -->
-    <footer>
-        <hr>
-        <p>Paint The Nights - Micro Blog</p>
-    </footer>
+    <script src="../js/header.js"></script>
+    <script>insertHeader(1);</script>
 </body>
 </html>
