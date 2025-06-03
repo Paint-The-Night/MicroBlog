@@ -7,6 +7,9 @@ on:
       - '.github/workflows/nanoblog.yml'
 jobs:
   build:
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -17,5 +20,5 @@ jobs:
       - uses: EndBug/add-and-commit@v9
         with:
           add: pages/NanoBlog.html
-          message: 'chore: rebuild NanoBlog'
+          message: 'chore: rebuild NanoBlog [skip ci]'
           github_token: ${{ secrets.GITHUB_TOKEN }}
