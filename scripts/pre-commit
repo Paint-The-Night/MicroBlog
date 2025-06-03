@@ -1,0 +1,4 @@
+#!/bin/sh
+python3 scripts/generate_nanoblog.py
+git add pages/NanoBlog.html
+
