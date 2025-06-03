@@ -13,8 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - run: python scripts/generate_nanoblog.py
+      - run: python3 scripts/generate_nanoblog.py
       - uses: EndBug/add-and-commit@v9
         with:
           add: pages/NanoBlog.html
           message: 'chore: rebuild NanoBlog'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
