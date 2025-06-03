@@ -1,0 +1,20 @@
+name: Build NanoBlog
+on:
+  push:
+    paths:
+      - 'nano-posts/**'
+      - 'scripts/generate_nanoblog.py'
+      - '.github/workflows/nanoblog.yml'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/generate_nanoblog.py
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: pages/NanoBlog.html
+          message: 'chore: rebuild NanoBlog'
